@@ -1,0 +1,25 @@
+
+opcao = ""
+
+while opcao != "3":
+    print("\n1 - Soma")
+    print("2 - Subtração")
+    print("3 - Sair")
+
+    opcao = input("Escolha uma opção: ")
+
+    if opcao == "1":
+        n1 = int(input("Primeiro número: "))
+        n2 = int(input("Segundo número: "))
+        print("Resultado:", n1 + n2)
+
+    elif opcao == "2":
+        n1 = int(input("Primeiro número: "))
+        n2 = int(input("Segundo número: "))
+        print("Resultado:", n1 - n2)
+
+    elif opcao == "3":
+        print("Programa encerrado.")
+
+    else:
+        print("Opção inválida.")

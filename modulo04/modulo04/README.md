@@ -1,21 +1,42 @@
-🐍 Projetos de Estruturas de Dados - Python
+🐍 Projetos de Funções, Estruturas de Dados e Jogos 🎯
 
 Funcionalidades Principais
 
-Os projetos foram desenvolvidos para praticar diferentes estruturas de dados da linguagem Python, trabalhando com listas, dicionários, repetição e manipulação de informações.
+Os projetos foram desenvolvidos para praticar diferentes conceitos da linguagem Python, envolvendo criação de funções, operações matemáticas, estruturas de dados, manipulação de dicionários e desenvolvimento de um jogo de adivinhação.
 
-Projetos disponíveis:
+Funcionalidades disponíveis:
 
-* Criação e manipulação de listas.
-* Adição de itens em uma lista.
-* Remoção de itens de uma lista.
-* Criação e utilização de dicionários.
-* Cadastro de informações de um aluno.
-* Identificação de números pares e ímpares.
-* Cadastro de contatos em uma agenda.
-* Busca de contatos pelo nome.
-* Remoção de contatos da agenda.
-* Exibição das informações armazenadas no terminal.
+* Criação de funções para realizar diferentes operações.
+
+* Cálculo de média de uma lista de números.
+
+* Verificação de números pares.
+
+* Realização de operações matemáticas.
+
+* Tratamento de divisão por zero.
+
+* Divisão inteira e cálculo de resto.
+
+* Cálculo de potenciação.
+
+* Armazenamento de informações em dicionários.
+
+* Armazenamento de notas em listas.
+
+* Separação de números pares e ímpares.
+
+* Cadastro, remoção e busca de contatos.
+
+* Menu interativo para gerenciamento de contatos.
+
+* Geração de números aleatórios.
+
+* Jogo de adivinhação com 6 tentativas.
+
+* Utilização de dicas durante o jogo.
+
+* Utilização das bibliotecas random e math.
 
 ⸻
 
@@ -25,106 +46,206 @@ Linguagem
 
 * Python 3
 
+Bibliotecas
+
+* random para geração do número secreto no jogo de adivinhação.
+
+* math para calcular a diferença absoluta entre o palpite e o número secreto.
+
 Funções e recursos utilizados
 
-* input() para receber informações do usuário.
-* print() para exibir os dados no terminal.
-* append() para adicionar elementos em uma lista.
-* remove() para remover elementos de uma lista.
-* for para percorrer elementos.
-* del para remover elementos de um dicionário.
-* Operador % para verificar números pares e ímpares.
+* def para criação de funções.
+
+* return para retornar resultados.
+
+* sum() para somar os valores de uma lista.
+
+* len() para obter a quantidade de elementos.
+
+* random.randint() para gerar um número aleatório.
+
+* math.fabs() para calcular o valor absoluto de uma diferença.
+
+* append() para adicionar elementos em listas.
+
+
+* del para remover elementos de dicionários.
 
 Estruturas de programação
 
-* Listas (list).
-* Dicionários (dict).
-* Variáveis para armazenamento de dados.
-* Estrutura de repetição (for).
-* Estruturas condicionais (if).
-* Operadores matemáticos e de comparação.
+* Funções.
+
+* Parâmetros.
+
+* Retorno de valores.
+
+* Listas.
+
+* Dicionários.
+
+* Conjuntos (set).
+
+* Estruturas condicionais (if, elif, else).
+
+* Estruturas de repetição (for e while).
+
+* Operadores matemáticos.
+
+* Operadores de comparação.
+
 * Entrada e saída de dados pelo terminal.
 
 ⸻
 
-Panorama Geral: Projetos de Estruturas de Dados
+Panorama Geral: Projetos de Python
 
-Os projetos foram desenvolvidos com o objetivo de praticar a utilização de listas e dicionários em Python, permitindo trabalhar com diferentes formas de armazenar, consultar, adicionar e remover informações.
+Os projetos foram desenvolvidos para praticar diferentes conceitos de programação em Python, trabalhando com funções, estruturas de dados, operações matemáticas, repetição, condicionais e interação com o usuário.
 
-📝 1. Manipulação de Lista
+🧮 1. Funções Matemáticas
 
-O primeiro projeto cria uma lista vazia e permite que o usuário adicione dois itens.
+O primeiro projeto reúne diversas funções para realizar operações matemáticas e outros cálculos.
 
-Após os itens serem adicionados, o programa exibe a lista e solicita ao usuário qual item deseja remover. O método remove() é utilizado para retirar o item informado.
+Entre as funções desenvolvidas estão:
 
-Esse projeto trabalha principalmente com listas, append(), remove(), entrada de dados e exibição de informações.
+* soma() para realizar adições.
+
+* subtrair() para realizar subtrações.
+
+* multiplicar() para realizar multiplicações.
+
+* dividir() para realizar divisões.
+
+* divisao_inteira() para realizar divisão inteira.
+
+* resto_divisao() para calcular o resto da divisão.
+
+* potencia() para realizar potenciação.
+
+* calcular_media() para calcular a média de uma lista de números.
+
+* e_par() para verificar se um número é par.
+
+
+As funções de divisão verificam se o segundo número é zero antes de realizar a operação, evitando uma divisão por zero.
+
+Esse projeto trabalha principalmente com funções, parâmetros, retorno de valores, operadores matemáticos, listas e estruturas condicionais.
 
 ⸻
 
-👨‍🎓 2. Cadastro de Aluno
+👨‍🎓 2. Dados de um Aluno
 
 O segundo projeto utiliza um dicionário para armazenar informações de um aluno.
 
-O usuário informa:
+O dicionário possui:
 
 * Nome.
+
 * Idade.
-* Nota.
 
-Essas informações são armazenadas no dicionário utilizando as chaves "nome", "idade" e "nota". Ao final, o programa exibe todos os dados cadastrados.
+* Notas.
 
-Esse projeto trabalha com dicionários, chaves, valores, entrada de dados e armazenamento de informações.
+As notas são armazenadas dentro de uma lista, permitindo que vários valores sejam associados ao aluno.
+
+Ao final, o programa acessa cada informação utilizando suas respectivas chaves e apresenta os dados no terminal.
+
+Esse projeto trabalha com dicionários, listas, chaves, valores e acesso a informações armazenadas.
 
 ⸻
 
-🔢 3. Números Pares e Ímpares
+🔢 3. Separação de Números Pares e Ímpares
 
-O terceiro projeto possui uma lista com os números de 1 até 10.
+O terceiro projeto utiliza um conjunto contendo os números de 1 a 10.
 
-Utilizando uma estrutura for, o programa percorre todos os números da lista e verifica quais são pares e quais são ímpares.
+O programa percorre os números utilizando um for e verifica se cada número é par ou ímpar através do operador %.
 
-Para realizar a verificação, é utilizado o operador %, que identifica o resto da divisão por 2.
+Os números são separados em duas listas:
 
-O programa apresenta os números separados em duas categorias:
+* pares
 
-* Pares.
-* Ímpares.
+* impares
 
-Esse projeto trabalha com listas, estrutura de repetição, estruturas condicionais e operador de módulo (%).
+Ao final, as duas listas são exibidas no terminal.
+
+Esse projeto trabalha com conjuntos, listas, estrutura de repetição, estruturas condicionais e operador de módulo (%).
 
 ⸻
 
 📱 4. Agenda de Contatos
 
-O quarto projeto cria uma agenda utilizando um dicionário.
+O quarto projeto desenvolve uma agenda de contatos utilizando um dicionário.
 
-O usuário informa:
+O sistema apresenta um menu com quatro opções:
 
-* Nome do contato.
-* Telefone.
+1. Adicionar contato.
 
-Essas informações são armazenadas na agenda, utilizando o nome como chave e o telefone como valor.
+2. Remover contato.
 
-Depois, o programa permite buscar um contato pelo nome e também remover um contato utilizando o comando del.
+3. Buscar contato.
 
-Esse projeto trabalha com dicionários, cadastro de informações, busca, acesso por chave e remoção de elementos.
+4. Sair.
+
+Ao adicionar um contato, o usuário informa o nome e o telefone. Essas informações são armazenadas no dicionário.
+
+Também é possível remover um contato existente ou buscar o telefone de um contato pelo nome.
+
+O menu permanece sendo exibido através de um while até que o usuário escolha a opção de saída.
+
+Esse projeto trabalha com dicionários, estruturas de repetição, estruturas condicionais, cadastro, busca e remoção de informações.
+
+⸻
+
+🎯 5. Jogo de Adivinhação
+
+O quinto projeto é um jogo de adivinhação em que o computador escolhe aleatoriamente um número entre 1 e 24.
+
+O jogador possui 6 tentativas para tentar descobrir o número secreto.
+
+A cada tentativa, o programa verifica o palpite e fornece diferentes respostas:
+
+* Se acertar, informa que o jogador venceu.
+
+* Se estiver a até 3 números de distância, informa que está muito perto.
+
+* Se o palpite for menor, informa que o número secreto é maior.
+
+* Se o palpite for maior, informa que o número secreto é menor.
+
+Caso o jogador não acerte após as 6 tentativas, o programa informa que ele perdeu e revela o número secreto.
+
+O projeto utiliza a biblioteca random para gerar o número secreto e math.fabs() para calcular a diferença entre o palpite e o número sorteado.
+
+Esse projeto trabalha com números aleatórios, funções de biblioteca, estruturas de repetição, condicionais, operadores matemáticos e interação com o usuário.
 
 ⸻
 
 Objetivo dos Projetos
 
-Os quatro projetos têm como objetivo desenvolver conhecimentos sobre estruturas de dados em Python, principalmente listas e dicionários.
+Os cinco projetos têm como objetivo desenvolver conhecimentos sobre diferentes conceitos da linguagem Python, permitindo praticar desde operações matemáticas e funções até estruturas de dados e desenvolvimento de programas interativos.
 
 Por meio dos exercícios, são praticados conceitos como:
 
-* Criação de listas.
-* Adição de elementos.
-* Remoção de elementos.
-* Criação de dicionários.
-* Armazenamento de informações por chave e valor.
-* Busca de informações.
-* Manipulação de dados.
-* Estruturas de repetição.
+* Criação e utilização de funções.
+
+* Parâmetros e retorno de valores.
+
+* Listas.
+
+* Dicionários.
+
+* Conjuntos.
+
 * Estruturas condicionais.
-* Operadores matemáticos.
-* Entrada e saída de dados pelo terminal.
+
+* Estruturas de repetição.
+
+* Operações matemáticas.
+
+* Tratamento de divisão por zero.
+
+* Geração de números aleatórios.
+
+* Utilização de bibliotecas.
+
+* Entrada e saída de dados.
+
+* Desenvolvimento de programas interativos pelo terminal.

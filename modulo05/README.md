@@ -1,31 +1,29 @@
-🐍 Projetos de Funções - Python
+🐍 Projetos de Funções, Média, Números e Login - Python
 
 Funcionalidades Principais
 
-Os projetos foram desenvolvidos para praticar a criação e utilização de funções em Python, trabalhando com parâmetros, retorno de valores, cálculos, estruturas condicionais e validação de informações.
+Os projetos foram desenvolvidos para praticar diferentes conceitos da linguagem Python, envolvendo criação de funções, operações matemáticas, listas, dicionários, estruturas condicionais e interação com o usuário.
 
-Projetos disponíveis:
+Funcionalidades disponíveis:
 
-* Criação de funções personalizadas.
+* Criação de funções para realizar diferentes tarefas.
 
-* Utilização de parâmetros em funções.
+* Exibição de uma saudação personalizada.
 
-* Exibição de mensagens personalizadas.
+* Cálculo da média de uma lista de notas.
 
-* Cálculo de média de notas.
+* Verificação de aprovação ou reprovação de um aluno.
 
-* Verificação de aprovação ou reprovação.
+* Identificação do maior número de uma lista.
 
-* Identificação do maior e menor valor de uma lista.
+* Identificação do menor número de uma lista.
 
-* Retorno de múltiplos valores por uma função.
-
+* Armazenamento de usuários e senhas em um dicionário.
 * Validação de usuário e senha.
 
-* Utilização de dicionários para armazenamento de credenciais.
+* Entrada de dados pelo terminal.
 
-* Entrada e processamento de dados pelo terminal.
-
+* Exibição de mensagens de sucesso ou erro.
 
 ⸻
 
@@ -39,28 +37,27 @@ Funções e recursos utilizados
 
 * def para criação de funções.
 
+* return para retornar valores.
+
+* print() para exibir informações no terminal.
+
 * input() para receber informações do usuário.
 
-* print() para exibir mensagens e resultados.
+* sum() para somar os valores de uma lista.
 
-* float() para converter notas em números decimais.
+* len() para obter a quantidade de elementos de uma lista.
 
-* max() para identificar o maior valor de uma lista.
+* max() para encontrar o maior valor.
 
-* min() para identificar o menor valor de uma lista.
-
-* return para retornar valores de uma função.
-
-* Dicionários para armazenamento de usuário e senha.
-
+* min() para encontrar o menor valor.
 
 Estruturas de programação
 
-* Funções com parâmetros.
+* Funções.
 
-* Funções com retorno de valores.
+* Parâmetros.
 
-* Variáveis.
+* Retorno de valores.
 
 * Listas.
 
@@ -68,99 +65,152 @@ Estruturas de programação
 
 * Estruturas condicionais (if e else).
 
+* Operadores matemáticos.
+
 * Operadores de comparação.
 
 * Entrada e saída de dados pelo terminal.
 
-
 ⸻
 
-Panorama Geral: Projetos de Funções
+Panorama Geral: Projetos de Python
 
-Os projetos foram desenvolvidos com o objetivo de praticar a utilização de funções em Python, permitindo organizar o código em blocos reutilizáveis e facilitar a execução de diferentes tarefas.
+Os projetos foram desenvolvidos para praticar diferentes conceitos de programação em Python, trabalhando com funções, listas, dicionários, operações matemáticas, estruturas condicionais e interação com o usuário.
+
+⸻
 
 👋 1. Função de Saudação
 
-O primeiro projeto cria uma função chamada saudacao() que recebe o nome de uma pessoa como parâmetro e exibe uma mensagem de boas-vindas.
+O primeiro projeto cria uma função chamada saudacao() que recebe um nome como parâmetro.
 
-O programa solicita o nome do usuário e passa essa informação para a função, que apresenta a saudação personalizada.
+A função utiliza o nome informado para exibir uma mensagem de boas-vindas personalizada no terminal.
 
-Esse projeto trabalha principalmente com criação de funções, parâmetros, variáveis, input() e print().
+O programa chama a função utilizando o nome "Beatriz".
 
-⸻
-
-📚 2. Cálculo de Média
-
-O segundo projeto possui uma função chamada calcular_media() que recebe duas notas como parâmetros.
-
-A função calcula a média das notas e verifica o resultado:
-
-* Média maior ou igual a 7: Aprovado!
-
-* Média menor que 7: Reprovado!
-
-As notas são recebidas pelo usuário e convertidas para valores decimais utilizando float().
-
-Esse projeto trabalha com funções, parâmetros, cálculos matemáticos, estruturas condicionais e conversão de dados.
+Esse projeto trabalha principalmente com criação de funções, parâmetros, strings e saída de dados utilizando print().
 
 ⸻
 
-🔢 3. Maior e Menor Valor
+🧮 2. Cálculo de Média
+
+O segundo projeto cria uma função chamada calcular_media() responsável por calcular a média de uma lista de notas.
+
+A função utiliza sum() para somar todas as notas e len() para descobrir a quantidade de notas.
+
+Depois do cálculo, o programa verifica a média utilizando uma estrutura condicional.
+
+Se a média for maior ou igual a 7, o programa informa:
+
+* Aluno aprovado!
+
+Caso a média seja menor que 7, informa:
+
+* Aluno reprovado!
+
+No exemplo utilizado, as notas são:
+
+* 8
+
+* 7
+
+* 9
+
+A média calculada é 8.0 e o aluno é aprovado.
+
+Esse projeto trabalha com funções, listas, operações matemáticas, sum(), len() e estruturas condicionais.
+
+⸻
+
+🔢 3. Maior e Menor Número
 
 O terceiro projeto cria uma função chamada maior_menor() que recebe uma lista de números.
 
-A função utiliza max() para encontrar o maior valor e min() para encontrar o menor valor. Depois, os dois valores são retornados utilizando return.
+A função utiliza:
 
-O programa recebe os valores retornados pela função e exibe o maior e o menor número no terminal.
+* max() para encontrar o maior número.
 
-Esse projeto trabalha com funções, parâmetros, listas, max(), min() e retorno de múltiplos valores.
+* min() para encontrar o menor número.
+
+Os dois valores são retornados pela função utilizando return.
+
+A lista utilizada no exemplo contém os números:
+
+* 5
+
+* 8
+
+* 2
+
+* 10
+
+* 4
+
+Ao final, o programa apresenta:
+
+* Maior: 10
+
+* Menor: 2
+
+Esse projeto trabalha com funções, listas, retorno de valores e funções nativas do Python.
 
 ⸻
 
 🔐 4. Validação de Login
 
-O quarto projeto cria uma função chamada validar_login() responsável por verificar se o usuário e a senha informados estão corretos.
+O quarto projeto desenvolve um sistema simples de validação de login utilizando um dicionário.
 
-O sistema possui um dicionário contendo as credenciais:
+O dicionário armazena um usuário e sua respectiva senha.
 
-"admin": "1234"
+Dados cadastrados:
 
-A função verifica se o usuário existe no dicionário e se a senha informada corresponde à senha cadastrada.
+* Usuário: Beatriz
 
-Caso as informações estejam corretas, a função retorna True e o programa informa:
+* Senha: 5762
 
-“Login realizado com sucesso!”
+O programa solicita ao usuário que informe:
 
-Caso contrário, retorna False e apresenta uma mensagem informando que o usuário ou a senha estão incorretos.
+1. Usuário.
 
-Esse projeto trabalha com funções, parâmetros, dicionários, operadores de comparação, return e estruturas condicionais.
+2. Senha.
+
+Depois, a função validar_login() verifica se o usuário existe no dicionário e se a senha informada corresponde à senha cadastrada.
+
+Se os dados estiverem corretos, o programa informa:
+
+* Login realizado com sucesso!
+
+Caso contrário, informa:
+
+* Usuário ou senha incorretos.
+
+Esse projeto trabalha com dicionários, funções, parâmetros, entrada de dados, estruturas condicionais, operador in e comparação de valores.
 
 ⸻
 
 Objetivo dos Projetos
 
-Os quatro projetos têm como objetivo desenvolver conhecimentos sobre funções em Python e sua utilização na organização e reutilização do código.
+Os quatro projetos têm como objetivo desenvolver conhecimentos sobre diferentes conceitos da linguagem Python, permitindo praticar desde a criação de funções e operações matemáticas até o armazenamento e validação de informações.
 
 Por meio dos exercícios, são praticados conceitos como:
 
-* Criação de funções.
+* Criação e utilização de funções.
 
 * Parâmetros.
 
 * Retorno de valores.
 
-* Variáveis.
-
 * Listas.
 
 * Dicionários.
 
-* Cálculos matemáticos.
-
 * Estruturas condicionais.
 
-* Operadores de comparação.
+* Operações matemáticas.
+
+* Comparação de valores.
+
+* Utilização de funções nativas do Python.
 
 * Entrada e saída de dados.
 
-* Utilização de funções nativas do Python.
+* Interação com o usuário pelo terminal.

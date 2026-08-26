@@ -5,7 +5,7 @@ Programador: as variaveis, serão inseridas no app - BACK-End
 Dev: existe a interação com o usuario - Web Design (Front-End)
 
 '''
-import utilidades
+import modulo04.modulo04.utilidades as utilidades
 import datetime
 from faker import Faker
 

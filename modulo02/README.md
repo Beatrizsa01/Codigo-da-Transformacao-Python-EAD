@@ -58,4 +58,5 @@ Também foi desenvolvido um exemplo básico utilizando o comando print() para ap
 
 Por fim, o projeto apresenta a utilização da função type() para identificar diferentes tipos de dados, como int, float, str e bool.
 
+```
 Esses exemplos proporcionam uma introdução aos principais conceitos da linguagem Python, ajudando no desenvolvimento da lógica de programação e na compreensão de entrada e saída de dados, variáveis, funções e tipos de dados.

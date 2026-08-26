@@ -84,4 +84,5 @@ O Sistema de Vendas da Padaria foi desenvolvido para facilitar o gerenciamento d
 
 O sistema possui uma interface gráfica desenvolvida em Python utilizando a biblioteca Tkinter, tornando sua utilização simples e intuitiva. Todas as operações são realizadas por meio de botões e campos de entrada, permitindo que o usuário execute as ações sem necessidade de utilizar o terminal.
 
+```
 Além disso, o sistema realiza validações de dados, verifica a disponibilidade dos produtos antes das vendas, atualiza automaticamente o estoque após cada operação e apresenta mensagens de confirmação, alerta e erro, proporcionando maior organização e praticidade no gerenciamento dos produtos da padaria.
